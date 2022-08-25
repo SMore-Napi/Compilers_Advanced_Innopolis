@@ -1,0 +1,3 @@
+(func easyFunc (x) (plus x x))
+(func functionAsArgument (x y) (x y))
+(functionAsArgument easyFunc 5)
